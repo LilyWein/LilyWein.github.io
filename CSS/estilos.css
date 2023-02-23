@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0; 
+      } 
+/*
+[class*="col-"] {
+        float: left;
+          }
+        .col-1 {width: 20%; height:10% ;text-align:center ;margin-top: 1%;}
+        .col-2 {width: 80%; height:20% ;}
+        .col-3 {width: 80%; height:30% ;}
+        .col-6 {width: 50%; height:50% ;}
+*/
+#titulo_principal{
+  width: 82%;
+  height: 25%;
+  float: right;
+  text-align:center;
+  color:rgb(110, 94, 0);
+  background-color:#d3d0bc;
+}
+
+#informacion_personal{
+  width: 18%;
+  background-color: rgb(171, 141, 121);
+  margin-top: 0;
+  margin-left: 0;
+  margin-bottom: 0;
+  float: left; 
+  text-align:center; 
+   }
+    
+#presentacion{
+ width: 82%;
+ height: 60%;
+ float: right;
+ color:rgb(35, 30, 5);
+ background-color:#d3d0bc;
+  }
+#presenta{
+  text-align: justify;
+}
+#titulos{
+  width: 82%;
+  height: 30%;
+  float: right;
+  color:rgb(35, 30, 5);
+  background-color:#d3d0bc;
+   }
+
+h2{
+  margin-left: 3%;
+  margin-bottom: 3%;
+  margin-top:1%;
+  color: #5c5101;
+}
+p{
+  margin-left: 2%;
+  margin-right: 3%;
+  margin-bottom: 3%;
+  text-align:center; 
+}
+li{
+    margin-bottom: 1.5%;
+    margin-top: 1.5%;
+    margin-left: 3%;
+}
+.li_aux{
+    margin-bottom: 0;
+    margin-top: 0;
+    list-style:none; 
+    background-color: rgb(171, 141, 121);
+  } 
+
+.li_sub{
+   margin-bottom: 0;
+   margin-top: 0; 
+  }
+
+a:link {
+  text-decoration: none;
+  }
+
+#publicaciones{
+  float: left;
+  color:rgb(97, 83, 15);
+  background-color:#d3d0bc;
+   }
+
+#antecedentes_laborales{
+  height: 30%;
+  float: left;
+  color:rgb(35, 30, 5);
+  background-color:#d3d0bc;
+  }
+     
+#cursos_asistidos{
+ height: 30%;
+ float: left;
+ color:rgb(35, 30, 5);
+ background-color:#d3d0bc;
+ }
