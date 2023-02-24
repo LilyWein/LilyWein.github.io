@@ -29,10 +29,19 @@
   float: left; 
   text-align:center; 
    }
-    
+
+#formulario_contacto{
+  width: 18%;
+  background-color: rgb(171, 141, 121);
+  margin-top: 20px;
+  /*margin-left: 0;
+  margin-bottom: 0;
+  float: left; 
+  text-align:justify;*/
+}   
+
 #presentacion{
  width: 82%;
- height: 60%;
  float: right;
  color:rgb(35, 30, 5);
  background-color:#d3d0bc;
@@ -54,12 +63,12 @@ h2{
   margin-top:1%;
   color: #5c5101;
 }
-p{
+/*p{
   margin-left: 2%;
   margin-right: 3%;
   margin-bottom: 3%;
-  text-align:center; 
-}
+  text-align:justify; 
+}*/
 li{
     margin-bottom: 1.5%;
     margin-top: 1.5%;
