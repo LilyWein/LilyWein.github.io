@@ -105,12 +105,10 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 
 h1, .h1 {
   font-size: calc(1.375rem + 1.5vw);
-  text-align: center;
 }
 @media (min-width: 1200px) {
   h1, .h1 {
     font-size: 2.5rem;
-    text-align: center;
   }
 }
 
@@ -663,7 +661,6 @@ progress {
   }
 }
 .row {
-background-color:#d3d0bc; /*se agrego color de fondo a las filas*/
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
   display: flex;
@@ -673,7 +670,6 @@ background-color:#d3d0bc; /*se agrego color de fondo a las filas*/
   margin-left: calc(-0.5 * var(--bs-gutter-x));
 }
 .row > * {
-  background-color:#d3d0bc; /*se agrego color de fondo a las filas*/ 
   flex-shrink: 0;
   width: 100%;
   max-width: 100%;
@@ -4652,11 +4648,11 @@ textarea.form-control-lg {
   display: flex;
   align-items: center;
   width: 100%;
-  padding: 0.5rem 1rem; /*se modifico el valor del padding*/
+  padding: 1rem 1.25rem;
   font-size: 1rem;
-  color: #5c5101;
+  color: #212529;
   text-align: left;
-  background-color: #d3d0bc;
+  background-color: #fff;
   border: 0;
   border-radius: 0;
   overflow-anchor: none;
