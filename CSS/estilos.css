@@ -55,7 +55,7 @@
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
-  --bs-body-color: #212529;
+  --bs-body-color: #5b3802;
   --bs-body-bg: #fff;
 }
 
@@ -106,6 +106,8 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 h1, .h1 {
   font-size: calc(1.375rem + 1.5vw);
   text-align: center;
+  color:rgb(110, 94, 0); /*se cambio color de fondo y tipografia*/
+  background-color:#d3d0bc
 }
 @media (min-width: 1200px) {
   h1, .h1 {
@@ -4646,14 +4648,14 @@ textarea.form-control-lg {
     border-bottom-left-radius: 0;
   }
 }
-
+/*se modificaron los colores de letras, bordesl y back-ground */
 .accordion-button {
   position: relative;
   display: flex;
   align-items: center;
   width: 100%;
   padding: 0.5rem 1rem; /*se modifico el valor del padding*/
-  font-size: 1rem;
+  font-size: 1.3rem;
   color: #5c5101;
   text-align: left;
   background-color: #d3d0bc;
@@ -4668,8 +4670,8 @@ textarea.form-control-lg {
   }
 }
 .accordion-button:not(.collapsed) {
-  color: #0c63e4;
-  background-color: #e7f1ff;
+  color: rgb(35, 30, 5);
+  background-color:#d3d0bc;
   box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.125);
 }
 .accordion-button:not(.collapsed)::after {
@@ -4697,9 +4699,9 @@ textarea.form-control-lg {
 }
 .accordion-button:focus {
   z-index: 3;
-  border-color: #86b7fe;
+  border-color: rgb(110, 94, 0);/* cambie color*/
   outline: 0;
-  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+  box-shadow: 0 0 0 0.25rem rgba(35, 30, 5, .25);
 }
 
 .accordion-header {
@@ -4707,8 +4709,8 @@ textarea.form-control-lg {
 }
 
 .accordion-item {
-  background-color: #fff;
-  border: 1px solid rgba(0, 0, 0, 0.125);
+  background-color: #d3d0bc; /* cambie color*/
+  border: 1px solid rgb(110, 94, 0); /* cambie color*/
 }
 .accordion-item:first-of-type {
   border-top-left-radius: 0.25rem;
@@ -11268,3 +11270,110 @@ textarea.form-control-lg {
 }
 
 /*# sourceMappingURL=bootstrap.css.map */
+
+
+/*
+* {
+  font-family: 'Bitter', serif;
+     } 
+
+h2{
+color: #5c5101;
+}
+
+h3{
+  color: #393727;
+  }
+/*
+li{
+margin-bottom: 1.5%;
+margin-top: 1.5%;
+margin-left: 3%;
+}*/
+
+/* listas anidadas */
+/*
+.li_aux{
+margin-bottom: 0;
+margin-top: 0;
+list-style:none; 
+background-color: rgb(171, 141, 121);
+} 
+
+.li_sub{
+margin-bottom: 0;
+margin-top: 0; 
+}
+
+.col_izquierda{
+  background-color: rgb(171, 141, 121);
+  }*/
+
+/* estilos links*/
+/*
+a:link {
+text-decoration: none;
+}
+*/
+/* estilos de las secciones*/
+
+/*
+#formulario_contacto{
+background-color: rgb(171, 141, 121);
+text-align:justify;
+} 
+
+#enviar{
+color:rgb(154, 82, 19);
+background-color: beige;
+text-align: center;
+margin-left: 5%;
+margin-top: 10%;
+}
+
+#presentacion{
+color:rgb(35, 30, 5);
+background-color:#d3d0bc;
+}
+
+#presenta{
+text-align: justify;
+}
+
+#titulos{
+color:rgb(35, 30, 5);
+background-color:#d3d0bc;
+ }
+
+#antecedentes_laborales{
+color:rgb(35, 30, 5);
+background-color:#d3d0bc;
+}*/
+   
+/* estilos para los recuadros de los formularios*/
+/*.entrada{ 
+width: 20%;
+font-size: medium;
+color:rgb(154, 82, 19);
+background-color: beige
+}
+
+#otros{
+width: 90%; 
+color:rgb(154, 82, 19);
+margin-left: 8%;
+background-color: beige;
+resize: none;
+}*/
+
+ /* estilos para la información de habilidades
+aside {
+    width: 30%;
+    padding-left: 3%;
+    margin-left: 3%;
+    float: right;
+    font-style: italic;
+    background-color: lightgray;
+  }
+*/
+
