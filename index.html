@@ -12,6 +12,7 @@
     <!--<meta property="og:url" content=" http://www.example.com" />--> <!--tengo que modificarlo cuando tenga un host-->
     <meta property="og:image" content="/imagenes/foto_lilian.jpeg " />
     <meta property="og:description" content="Curriculum Vitae de Lilian Weingast" />   
+    <link rel="stylesheet" type="text/css" href="CSS/bootstrap.css" />
     <link rel="stylesheet" type="text/css" href="CSS/estilos.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,16 +20,15 @@
 
 <body>
     <div class="contenedor">
-        <div class="row">
-            <header> 
-               <h1>Curriculum Vitae Lilian Gloria Weingast</h1> <!--Titulo principal-->
+        <div class="row" >
+            <header id="titulo_principal"> 
             </header>
+            <h1>Curriculum Vitae ~ Lilian Gloria Weingast ~</h1> <!--Titulo principal-->
         </div>
-   
         <div class="row">
-            <div  class="col-md-2 well" class="col_izquierda"> 
+            <div  class="col-md-2 well"> 
                  <!--foto personal-->
-             <img src="/imagenes/foto_lilian.jpeg" alt="no se puede visualizar la foto de Lilian" style="max-width:inherit; height:inherit;"/>
+             <img src="/imagenes/foto_lilian.jpeg" alt="no se puede visualizar la foto de Lilian" id="fotopersonal"/>
                    
                 <!--datos personales-->
              <h3>Información Personal</h3>
@@ -38,9 +38,20 @@
                  <li class="li_aux">Tel.: +54- 9- 2901- 604185</li>
                  <li class="li_aux">Mail: liwein@gmail.com</li>
                 </ul>
+
+                <!--redes sociales-->
+             <h3>Redes Sociales</h3> 
+             <p class="parrafo">Linkedln:</p>
+             <div class="badge-base LI-profile-badge" data-locale="es_ES" data-size="medium" data-theme="light" data-type="VERTICAL" 
+                 data-vanity="lilian-weingast-72692724" data-version="v1"><a class="badge-base__link LI-simple-link" 
+                 href="https://ar.linkedin.com/in/lilian-weingast-72692724?trk=profile-badge" id="linkedln">Lilian Weingast</a>
+                          
+             </div>
+             
              <!--Idiomas-->
              <h3>Idioma Extranjero</h3>   
-             <P> Inglés </P> 
+             <P class="parrafo"> Inglés </P> 
+
             </div>
 
             <div class="col-md-10 well">
@@ -50,10 +61,10 @@
                     <p class="parrafo">
                      Soy docente de matemática, física y áreas afines, con formación en educación virtual, programación, investigación,
                      y cuento con amplia experiencia de trabajo en equipos pedagógicos de instituciones de nivel superior y del 
-                     Ministerio de Educación de la Provincia de Tierra del Fuego, Antártida e Islas del Atlántico Sur. 
-                     Me considero una persona emprendedora, crítica, honesta, detallista, perseverante, estudiosa, capaz de enseñar y aprender 
+                     Ministerio de Educación de la Provincia de Tierra del Fuego, Antártida e Islas del Atlántico Sur.</p>
+                     <p class="parrafo">Me considero una persona emprendedora, crítica, honesta, detallista, perseverante, estudiosa, capaz de enseñar y aprender 
                      lo que sea necesario para lograr los objetivos que me propongo o proponen de forma profesional y efectiva.  
-                     Trabajo de forma individual o en equipo, respetando diferentes puntos de vista y metodologías de trabajo.
+                     Trabajo de forma individual o en equipo, respetando diferentes puntos de vista y metodologías de trabajo.</p>
                     </p>
                 </section2>
 
@@ -87,21 +98,21 @@
         </div>
 
         <div class="row">
-            <div class="col-md-2 well" class="col_izquierda">
+            <div class="col-md-2 well">
                   <!--Habilidades complementarias que favorecen el desempeño laboral-->
                 <div id="habilidades">
                     <h2>Habilidades Informáticas</h2>
                      <h6>Edición de Videos</h6>
-                     <iframe width="inherit" height="inherit" src="https://www.youtube.com/embed/H09OOaULN0w" title="YouTube video player" 
+                     <iframe width=100% height=100% src="https://www.youtube.com/embed/H09OOaULN0w" title="YouTube video player" 
                      frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                       allowfullscreen></iframe>
 
                      <h6>Clases virtuales</h6>
                         <span>Zoom</span> 
-                         <iframe width="inherit" height="inherit" src="https://www.youtube.com/embed/_o5FMOwQwLw" title="YouTube video player" 
+                         <iframe width=100% height=100% src="https://www.youtube.com/embed/_o5FMOwQwLw" title="YouTube video player" 
                              frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                              allowfullscreen></iframe>
-                        <span>Meet</span>
+                        <span>Meet</span><br>
                         <span>Plataformas Moodle</span>
                      <h6>Creación y colaboraciones en Blogs</h6>
                      <span><a href="http://peliculasparaanalizar.blogspot.com/search?updated-max=2008-07-19T22:42:00-03:00&max-results=7" 
@@ -110,6 +121,10 @@
                      
 
                      <h6>Manejo de Paquetes Integrados</h6>
+                     <p>Microsoft Office</p>
+
+                     <h6>Hardware</h6>
+                     <p>Conocimientos básicos: limpieza de dispositivos, conexiones de redes simples, sustitución de componentes básicos</p>
                       
                 </div>     
                 
@@ -118,7 +133,7 @@
             <div class="col-md-10 well">  
               <!--Información Académica-->
               <h2>Pasantia</h2>
-              <p>Pasantía en Astronomía, realizada en el Observatorio Naval de la ciudad de Buenos Aires, a cargo del licenciado 
+              <p class="parrafo"> Pasantia en Astronomía, realizada en el Observatorio Naval de la ciudad de Buenos Aires, a cargo del licenciado 
                   Horacio Tignanelli, entre el mes de junio y diciembre de 1994 </p>
         
              <section5 id="antecedentes_laborales">
@@ -475,15 +490,15 @@
     
                <div></div>
                    <!--formulario para contacto-->
-                 <h3>Para contactarme</h3> 
+                 <h3>Para contactarme:</h3> 
                  <form id="formulario_contacto" action="" method="get">
-                     <label>Nombre</label>
+                     <label class="etiqueta">Nombre</label>
                      <input type="text" class="entrada" placeholder="Ingrese su Nombre"/><br>
-                     <label>Apellido</label>
+                     <label class="etiqueta">Apellido</label>
                      <input type="text" class="entrada" placeholder="Ingrese su Apellido"/><br>
-                     <label>e-mail</label>
+                     <label class="etiqueta">e-mail</label>
                      <input type="email" class="entrada" placeholder="Ingrese su e-mail"/><br>
-                     <label>Motivo</label><br><!--selección multiple de motivo de contacto-->
+                     <label class="etiqueta">Motivo</label><br><!--selección multiple de motivo de contacto-->
                      <input type="checkbox" name="motivo1" value="oferta">
                      <label for="motivo1"> Ofrecimiento de Trabajo</label><br>
                      <input type="checkbox" name="motivo2" value="academicos">
@@ -491,7 +506,7 @@
                      <input type="checkbox" name="motivo3" value="personales">
                      <label for="motivo3"> Personales</label><br>
                      <input type="checkbox" name="motivo4" value="otros">
-                     <label for="motivo4"> Otros. Indique brevemente sus motivos:  </label><br>
+                     <label for="motivo4"> Otros. Indique brevemente sus motivos: </label><br>
                      <p><textarea id="otros" name="comentario"></textarea></p>
                      <input type="submit" id="enviar" value="Enviar">
                   </form>

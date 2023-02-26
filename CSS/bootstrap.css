@@ -55,7 +55,7 @@
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
-  --bs-body-color: #212529;
+  --bs-body-color: #5b3802;
   --bs-body-bg: #fff;
 }
 
@@ -105,10 +105,14 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 
 h1, .h1 {
   font-size: calc(1.375rem + 1.5vw);
+  text-align: center;
+  color:rgb(110, 94, 0); /*se cambio color de fondo y tipografia*/
+  background-color:#d3d0bc
 }
 @media (min-width: 1200px) {
   h1, .h1 {
     font-size: 2.5rem;
+    text-align: center;
   }
 }
 
@@ -370,9 +374,7 @@ select:disabled {
 button,
 [type=button],
 [type=reset],
-[type=submit] {
-  -webkit-appearance: button;
-}
+
 button:not(:disabled),
 [type=button]:not(:disabled),
 [type=reset]:not(:disabled),
@@ -429,7 +431,7 @@ legend + * {
 
 [type=search] {
   outline-offset: -2px;
-  -webkit-appearance: textfield;
+  
 }
 
 /* rtl:raw:
@@ -661,6 +663,7 @@ progress {
   }
 }
 .row {
+background-color:#d3d0bc; /*se agrego color de fondo a las filas*/
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
   display: flex;
@@ -670,6 +673,7 @@ progress {
   margin-left: calc(-0.5 * var(--bs-gutter-x));
 }
 .row > * {
+  background-color:#d3d0bc; /*se agrego color de fondo a las filas*/ 
   flex-shrink: 0;
   width: 100%;
   max-width: 100%;
@@ -2478,8 +2482,6 @@ textarea.form-control-lg {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  -webkit-print-color-adjust: exact;
-  color-adjust: exact;
 }
 .form-check-input[type=checkbox] {
   border-radius: 0.25em;
@@ -4642,17 +4644,17 @@ textarea.form-control-lg {
     border-bottom-left-radius: 0;
   }
 }
-
+/*se modificaron los colores de letras, bordesl y back-ground */
 .accordion-button {
   position: relative;
   display: flex;
   align-items: center;
   width: 100%;
-  padding: 1rem 1.25rem;
-  font-size: 1rem;
-  color: #212529;
+  padding: 0.5rem 1rem; /*se modifico el valor del padding*/
+  font-size: 1.3rem;
+  color: #5c5101;
   text-align: left;
-  background-color: #fff;
+  background-color: #d3d0bc;
   border: 0;
   border-radius: 0;
   overflow-anchor: none;
@@ -4664,8 +4666,8 @@ textarea.form-control-lg {
   }
 }
 .accordion-button:not(.collapsed) {
-  color: #0c63e4;
-  background-color: #e7f1ff;
+  color: rgb(35, 30, 5);
+  background-color:#d3d0bc;
   box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.125);
 }
 .accordion-button:not(.collapsed)::after {
@@ -4693,9 +4695,9 @@ textarea.form-control-lg {
 }
 .accordion-button:focus {
   z-index: 3;
-  border-color: #86b7fe;
+  border-color: rgb(110, 94, 0);/* cambie color*/
   outline: 0;
-  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+  box-shadow: 0 0 0 0.25rem rgba(35, 30, 5, .25);
 }
 
 .accordion-header {
@@ -4703,8 +4705,8 @@ textarea.form-control-lg {
 }
 
 .accordion-item {
-  background-color: #fff;
-  border: 1px solid rgba(0, 0, 0, 0.125);
+  background-color: #d3d0bc; /* cambie color*/
+  border: 1px solid rgb(110, 94, 0); /* cambie color*/
 }
 .accordion-item:first-of-type {
   border-top-left-radius: 0.25rem;
@@ -11264,3 +11266,4 @@ textarea.form-control-lg {
 }
 
 /*# sourceMappingURL=bootstrap.css.map */
+
