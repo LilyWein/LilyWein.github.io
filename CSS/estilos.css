@@ -58,6 +58,7 @@ margin-top: 0;
  }
 
 .col-md-10 {
+  background-color:#d3d0bc;
   padding-right: 5%;
 }
 
@@ -97,6 +98,7 @@ text-decoration: none;
 #habilidades{
   padding-left: 1rem;
   padding-top: 1rem;
+  scroll-margin-left: center;
  }
 
 #formulario_contacto{
@@ -162,4 +164,48 @@ margin-top: 2%;
 padding: 1%;
 background-color: beige;
 resize: none;
+}
+
+.accordion-item {
+  background-color: #d3d0bc; /* cambie color*/
+  border: 1px solid rgb(110, 94, 0); /* cambie color*/
+}
+
+.accordion-button:focus {
+ 
+  border-color: rgb(110, 94, 0);/* cambie color*/
+  box-shadow: 0 0 0 0.25rem rgba(35, 30, 5, .25);
+}
+h1, .h1 {
+  text-align: center;
+  color:rgb(110, 94, 0); /*se cambio color de fondo y tipografia*/
+  background-color:#d3d0bc
+}
+
+/*.row {
+  background-color:#d3d0bc; 
+  }
+.row > * {
+    background-color:#d3d0bc; 
+ }
+ */
+.accordion-button {
+  align-items: center;
+  width: 100%;
+  padding: 0.5rem 1rem; /*se modifico el valor del padding*/
+  font-size: 1.3rem;
+  color: #5c5101;
+  text-align: left;
+  background-color: #d3d0bc;
+  border: 0;
+ }
+
+.accordion-button:focus {
+  border-color: rgb(110, 94, 0);/* cambie color*/
+  box-shadow: 0 0 0 0.25rem rgba(35, 30, 5, .25);
+}
+
+.accordion-item {
+  background-color: #d3d0bc; /* cambie color*/
+  border: 1px solid rgb(110, 94, 0); /* cambie color*/
 }
