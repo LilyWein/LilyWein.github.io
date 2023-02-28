@@ -6,19 +6,46 @@
   } 
   
 body {
-   margin: 0 0.8rem;
+   margin: 0 0;
   }
+
+ul {
+  padding: 0;
+}
+input{
+ color: rgb(189, 154, 122) ;
+}
 
  /* Formato columnas*/   
  
 .col-md-2 {
    background-color: rgb(178, 138, 103);
    padding-left: 1rem;
+   padding-bottom: 1rem;
  }
   
 .col-md-10 {
     background-color:#d3d0bc;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
+
+.col-md-3 {
+    background-color:#d3d0bc;
+    padding:  0;
+    margin: 0;
+
+  }
+
+.col-md-4 {
+    background-color:#d3d0bc;
+    padding: 0;
+  }
+
+.row {
+  padding: 0;
+  margin: 0;
+}
 
   /* formato titulos*/
 
@@ -30,7 +57,7 @@ h1, .h1 {
   }
 
 h2{
-color: #5c5101;
+color: #645904;
 text-align: center;
 border-bottom-color : #5c5101;
 border-bottom-style: solid;
@@ -38,7 +65,7 @@ border-top-color : #5c5101;
 border-top-style: solid;
 font-style: italic;
 font-weight: bold;
-margin-right: 1rem;
+background-color:rgb(189, 154, 122) ;
 }
 
 h3{
@@ -60,6 +87,7 @@ h4{
   border-bottom-style: solid;
    font-style: italic;
    margin-right: 1rem;
+   margin-top: 2rem;
  }
 
  /* Formatos listas*/
@@ -68,10 +96,15 @@ li{
  margin-bottom: 1.5%;
  margin-top: 1.5%;
  margin-right: 2rem;
+ margin-left: 2rem;
 }
+
 
 .li_aux{
  list-style:none;
+ padding: 0;
+ font-weight: bold;
+ padding-top: 2rem;
 } 
 
 .li_sub{
@@ -79,20 +112,29 @@ li{
  margin-top: 0; 
 }
 
-/* estilos links*/
-
-a:link {
- text-decoration: none;
+/* formatos links*/
+a{
+  text-align: center;
+  color: rgb(165, 79, 26);
 }
+
 
 /* Formatos para las secciones*/
 
 .parrafo{
   text-align: justify;
   color:rgb(92, 67, 30);
-  margin-left: .5rem;
-  margin-right: 1rem;
-  margin-bottom: 2rem;
+  margin: 2rem 1rem 2rem .5rem;
+  }
+
+.parrafo2{
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+  color:rgb(92, 67, 30);
+  margin-top: 1.5rem;
+  margin-right: 0;
+  margin-left: 0;
 }
 
 #titulo_principal{
@@ -111,8 +153,10 @@ a:link {
 }
 
 #linkedln{
-  padding-left: 1rem;
-  margin-bottom: 2rem;
+  padding: 0;
+  text-align: center;
+  color: rgb(235, 191, 138);
+  font-weight: bold;
 }
 
 #formulario_contacto{
@@ -141,10 +185,13 @@ a:link {
  color:rgb(92, 67, 30);
  background-color:#d3d0bc;
  text-align: justify;
+ padding-top: 2rem;
 }
 
 #habilidades{
- padding-top: 1rem;
+ background-color:#d3d0bc;
+ padding: 0;
+ margin: 0;
 }
 
 #videos{
@@ -164,40 +211,54 @@ a:link {
 .entrada{ 
  width: 80%;
  font-size: small;
- color:rgb(184, 118, 62);
- background-color: beige;
+ color:rgb(69, 37, 10);
+ text-decoration-color: rgb(69, 37, 10);
+ background-color: rgb(189, 154, 122);
+ border-color:#d3d0bc;;
+ border-style: outset;
 }
 
 .etiqueta{
  line-height: 3rem;
  font-weight: bold;
+ 
 }
 
 #mensaje{
  width: 100%;
  height: inherit; 
- color:rgb(154, 82, 19);
  margin-left: 1%;
  margin-right: 1%;
  margin-top: 1%;
- padding: 1%;
- background-color: beige;
+ padding: 0;
  resize: none;
-}
+ border-color: #d3d0bc;;
+ background-color: rgb(189, 154, 122);
+ color:rgb(69, 37, 10);
+ border-style: outset;
+ text-decoration-color: rgb(69, 37, 10);
+ }
 
 #borrar{
-  color:rgb(35, 30, 5);
-  background-color: beige;
   text-align: center;
   margin-left: 1rem;
   margin-right: 1rem;
+  padding-left: 2;
+  border-color: #d3d0bc;;
+  background-color: rgb(189, 154, 122);
+  color:rgb(69, 37, 10);
+  border-style: outset;
+  font-weight: bold;
 }
  
 #enviar{
-  color:rgb(35, 30, 5);
-  background-color: beige;
   text-align: center;
   margin-left: 1rem;
+  border-color: #d3d0bc;;
+  background-color: rgb(189, 154, 122);
+  color:rgb(69, 37, 10);
+  border-style: outset;
+  font-weight: bold;
 }
  
  
