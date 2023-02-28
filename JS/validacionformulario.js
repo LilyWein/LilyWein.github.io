@@ -1,7 +1,7 @@
  
 const enviar = document.getElementById('enviar');
 
-const validación = (e) => {
+const validación = (e) => { 
   e.preventDefault();
   const nombre = document.getElementById('nombre');
   const apellido = document.getElementById('apellido');
